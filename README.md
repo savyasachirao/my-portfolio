@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website]()
+### Weblink: [Live Website](https://savyasachi-kokkirala-portfolio.vercel.app/)
 
 ## Introduction
 
@@ -29,11 +29,12 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone {git url}`
-2. Navigate to the project directory: `cd rishav-chanda-portfolio`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000`
+1. Clone the repository: `git clone {url}`
+2. Navigate to the project directory: `cd {folder}`
+3. change the .env-example to .env and set up the varibles.
+4. Install the dependencies: `npm install`
+5. Start the development server: `npm start`
+6. Open your browser and visit: `http://localhost:3000`
 
 ## Usage
 
