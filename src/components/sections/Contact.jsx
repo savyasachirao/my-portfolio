@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 import EarthCanvas from "../canvas/Earth";
+// import dotenv from "dotenv";
 
 const Container = styled.div`
   display: flex;
@@ -126,26 +127,27 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const form = useRef();
+  // const form = useRef();
 
   const handleSubmit = (e) => {
+    console.log(process.env.REACT_APP_SERVICE_ID);
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
         },
         (error) => {
           alert(error);
         }
       );
+    e.target.reset();
   };
 
   return (
