@@ -10,7 +10,7 @@ export const Bio = {
     "I'm a motivated, curious, and adaptive person that is constantly eager to take on new challenges. I enjoy learning and work hard to deliver excellent results. Equipped with an optimistic perspective and a growth-oriented mindset, I'm ready to leave a meaningful mark and achieve amazing things.",
   github: "https://github.com/savyasachirao",
   resume:
-    "https://drive.google.com/file/d/1H5KE7ACt1OLwMPJXlG-iZaAec4DS3JQp/view",
+    "https://drive.google.com/file/d/1aFcT4SxBxWK1pU1AKudDE_WnIc2aRsh3/view",
   linkedin: "https://www.linkedin.com/in/savyasachi-kokkirala-68a654191/",
   twitter: "https://twitter.com/SavyasachiRao",
   insta: "https://www.instagram.com/arjun_rao_17",
